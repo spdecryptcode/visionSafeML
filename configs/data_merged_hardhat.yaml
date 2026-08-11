@@ -1,0 +1,19 @@
+path: /Users/taranjotkaur/AI Projects/ppe-safety-vision/data
+train:
+- /Users/taranjotkaur/AI Projects/ppe-safety-vision/data/construction-ppe-optimized/images/train
+- /Users/taranjotkaur/AI Projects/ppe-safety-vision/data/hard-hat-remapped/images/train
+val: /Users/taranjotkaur/AI Projects/ppe-safety-vision/data/construction-ppe-optimized/images/val
+test: /Users/taranjotkaur/AI Projects/ppe-safety-vision/data/construction-ppe-optimized/images/test
+names:
+  0: helmet
+  1: gloves
+  2: vest
+  3: boots
+  4: goggles
+  5: none
+  6: Person
+  7: no_helmet
+  8: no_goggle
+  9: no_gloves
+  10: no_boots
+nc: 11

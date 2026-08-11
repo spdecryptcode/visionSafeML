@@ -1,0 +1,9 @@
+name: more_epochs
+config: /Users/taranjotkaur/AI Projects/ppe-safety-vision/configs/train_more_epochs.yaml
+best_weights: /Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/more_epochs/weights/best.pt
+metrics:
+  metrics/precision(B): 0.6501423104322971
+  metrics/recall(B): 0.5363863428464302
+  metrics/mAP50(B): 0.5620218616444279
+  metrics/mAP50-95(B): 0.2746897381007985
+  fitness: 0.2746897381007985

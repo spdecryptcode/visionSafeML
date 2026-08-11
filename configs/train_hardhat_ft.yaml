@@ -1,0 +1,24 @@
+# Fine-tune winner on Construction-PPE optimized + remapped Hard Hat Workers
+name: hardhat_ft
+model: weights/best.pt
+data: configs/data_merged_hardhat.yaml
+epochs: 60
+patience: 20
+imgsz: 640
+batch: 16
+device: mps
+seed: 42
+lr0: 0.001
+optimizer: auto
+project: runs
+exist_ok: true
+plots: true
+save: true
+val: true
+workers: 4
+amp: false
+copy_paste: 0.2
+close_mosaic: 10
+mixup: 0.05
+degrees: 5.0
+scale: 0.6

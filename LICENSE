@@ -1,0 +1,28 @@
+Copyright (c) 2026 DecryptCode / visionSafeML contributors.
+All rights reserved.
+
+PROPRIETARY AND CONFIDENTIAL — NON-PUBLIC USE
+
+This software and associated documentation files (the "Software") are the
+proprietary property of the copyright holder(s).
+
+Permission is granted only for internal evaluation, development, and
+deployment by authorized personnel and designated client stakeholders under
+a separate written agreement.
+
+Without prior written permission from the copyright holder(s), you may NOT:
+
+1. Copy, modify, merge, publish, distribute, sublicense, or sell the Software
+2. Make the Software available to the public or to unauthorized third parties
+3. Remove or alter proprietary notices
+4. Use the Software for any purpose outside an authorized engagement
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM USE OF THE SOFTWARE.
+
+Third-party components (including Ultralytics and the Construction-PPE
+dataset distribution) remain subject to their own licenses. Those terms are
+not superseded by this notice.

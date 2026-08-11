@@ -1,0 +1,17 @@
+model: runs/detect/more_epochs/weights/best.pt
+device: mps
+imgsz: 640
+conf: 0.25
+iou: 0.45
+max_det: 100
+violation_classes:
+- no_helmet
+- no_goggle
+- no_gloves
+- no_boots
+worn_classes:
+- helmet
+- gloves
+- vest
+- boots
+- goggles

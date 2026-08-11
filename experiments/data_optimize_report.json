@@ -1,0 +1,171 @@
+{
+  "optimized_at": "2026-08-11T02:40:57.703355+00:00",
+  "source": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/data/construction-ppe",
+  "output": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/data/construction-ppe-optimized",
+  "data_yaml": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/configs/data_optimized.yaml",
+  "strategy": {
+    "primary_oversample_classes": [
+      "no_boots"
+    ],
+    "secondary_oversample_classes": [
+      "no_goggle"
+    ],
+    "target_min_fraction_primary": 0.05,
+    "max_extra_copies_per_image": 6,
+    "val_test_untouched": true
+  },
+  "empty_labels": [],
+  "missing_labels": [],
+  "oversample_plan_top": [
+    [
+      "image1138.jpg",
+      6
+    ],
+    [
+      "image1166.jpg",
+      6
+    ],
+    [
+      "image1169.jpg",
+      6
+    ],
+    [
+      "image1175.jpg",
+      6
+    ],
+    [
+      "image1181.jpg",
+      6
+    ],
+    [
+      "image1191.jpg",
+      6
+    ],
+    [
+      "image1201.jpg",
+      6
+    ],
+    [
+      "image1206.jpg",
+      6
+    ],
+    [
+      "image1212.jpg",
+      6
+    ],
+    [
+      "image1241.jpg",
+      6
+    ],
+    [
+      "image1254.jpg",
+      6
+    ],
+    [
+      "image1267.jpg",
+      6
+    ],
+    [
+      "image1269.jpg",
+      6
+    ],
+    [
+      "image1274.jpg",
+      6
+    ],
+    [
+      "image1275.jpg",
+      6
+    ],
+    [
+      "image1277.jpg",
+      6
+    ],
+    [
+      "image1289.jpg",
+      6
+    ],
+    [
+      "image1296.jpg",
+      6
+    ],
+    [
+      "image1297.jpg",
+      6
+    ],
+    [
+      "image1302.jpg",
+      6
+    ],
+    [
+      "image1326.jpg",
+      6
+    ],
+    [
+      "image1337.jpg",
+      6
+    ],
+    [
+      "image1340.jpg",
+      6
+    ],
+    [
+      "image1351.jpg",
+      6
+    ],
+    [
+      "image1352.jpg",
+      6
+    ],
+    [
+      "image1358.jpg",
+      6
+    ],
+    [
+      "image1360.jpg",
+      6
+    ],
+    [
+      "image1361.jpg",
+      6
+    ],
+    [
+      "image1117.jpg",
+      2
+    ],
+    [
+      "image1118.jpg",
+      2
+    ]
+  ],
+  "train_images_base": 1132,
+  "train_images_extra": 556,
+  "train_images_total": 1688,
+  "skipped_empty_or_missing": [],
+  "train_box_counts_before": {
+    "helmet": 1341,
+    "gloves": 1146,
+    "vest": 1269,
+    "boots": 1235,
+    "goggles": 419,
+    "none": 651,
+    "Person": 1770,
+    "no_helmet": 400,
+    "no_goggle": 337,
+    "no_gloves": 442,
+    "no_boots": 88
+  },
+  "train_box_counts_after": {
+    "helmet": 1369,
+    "gloves": 1214,
+    "vest": 1285,
+    "boots": 1377,
+    "goggles": 463,
+    "none": 1607,
+    "Person": 2812,
+    "no_helmet": 1350,
+    "no_goggle": 1179,
+    "no_gloves": 1502,
+    "no_boots": 616
+  }
+}

@@ -1,0 +1,9 @@
+name: baseline
+config: /Users/taranjotkaur/AI Projects/ppe-safety-vision/configs/train_baseline.yaml
+best_weights: /Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/baseline/weights/best.pt
+metrics:
+  metrics/precision(B): 0.6095991829856995
+  metrics/recall(B): 0.5207854962860051
+  metrics/mAP50(B): 0.5600003795189039
+  metrics/mAP50-95(B): 0.26806430179523827
+  fitness: 0.26806430179523827

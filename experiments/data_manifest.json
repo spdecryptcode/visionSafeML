@@ -1,0 +1,108 @@
+{
+  "dataset": "construction-ppe",
+  "source": "https://github.com/ultralytics/assets/releases/download/v0.0.0/construction-ppe.zip",
+  "prepared_at": "2026-08-11T01:59:31.362715+00:00",
+  "path": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/data/construction-ppe",
+  "content_fingerprint": "d428c33f2f515d3e",
+  "split_image_counts": {
+    "train": 1132,
+    "val": 143,
+    "test": 141
+  },
+  "class_box_counts": {
+    "train": {
+      "helmet": 1341,
+      "Person": 1770,
+      "none": 651,
+      "goggles": 419,
+      "vest": 1269,
+      "gloves": 1146,
+      "boots": 1235,
+      "no_helmet": 400,
+      "no_goggle": 337,
+      "no_gloves": 442,
+      "no_boots": 88
+    },
+    "val": {
+      "helmet": 201,
+      "boots": 151,
+      "Person": 239,
+      "gloves": 136,
+      "vest": 171,
+      "goggles": 47,
+      "no_goggle": 41,
+      "none": 81,
+      "no_gloves": 56,
+      "no_helmet": 45,
+      "no_boots": 4
+    },
+    "test": {
+      "helmet": 192,
+      "Person": 236,
+      "vest": 178,
+      "gloves": 163,
+      "boots": 211,
+      "goggles": 52,
+      "no_helmet": 40,
+      "no_goggle": 33,
+      "none": 65,
+      "no_gloves": 58,
+      "no_boots": 23
+    }
+  },
+  "rare_classes_train_lt_3pct": {
+    "no_boots": 88
+  },
+  "filename_overlaps": {},
+  "perceptual_hash_cross_split_collisions": [],
+  "image_stats": {
+    "train": {
+      "sampled": 200,
+      "width_min": 408,
+      "width_max": 1024,
+      "width_mean": 705.0,
+      "height_min": 408,
+      "height_max": 1024,
+      "height_mean": 674.6,
+      "aspect_mean": 1.054
+    },
+    "val": {
+      "sampled": 143,
+      "width_min": 612,
+      "width_max": 1024,
+      "width_mean": 686.4,
+      "height_min": 401,
+      "height_max": 1024,
+      "height_mean": 667.9,
+      "aspect_mean": 1.042
+    },
+    "test": {
+      "sampled": 141,
+      "width_min": 612,
+      "width_max": 1024,
+      "width_mean": 686.1,
+      "height_min": 425,
+      "height_max": 1024,
+      "height_mean": 686.4,
+      "aspect_mean": 1.011
+    }
+  },
+  "class_names": {
+    "0": "helmet",
+    "1": "gloves",
+    "2": "vest",
+    "3": "boots",
+    "4": "goggles",
+    "5": "none",
+    "6": "Person",
+    "7": "no_helmet",
+    "8": "no_goggle",
+    "9": "no_gloves",
+    "10": "no_boots"
+  },
+  "notes": [
+    "Official Ultralytics Construction-PPE splits used as-is.",
+    "No re-shuffle \u2014 keeps results comparable to others on this dataset.",
+    "Review experiments/audit_samples/*.jpg before training."
+  ]
+}

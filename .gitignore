@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Env / secrets
+.env
+.wandb/
+wandb/
+yolo11*.pt
+
+# Data & model artifacts (keep directory placeholders)
+data/construction-ppe/
+data/construction-ppe-optimized/
+data/hard-hat-workers/
+data/hard-hat-remapped/
+data/datasets/
+data/custom/images/**
+data/custom/labels/**
+data/custom/raw/**
+!data/custom/**/.gitkeep
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.webp
+!docs/assets/.gitkeep
+
+# Training outputs
+runs/
+weights/**
+!weights/.gitkeep
+*.pt
+*.onnx
+*.engine
+*.torchscript
+
+# Experiments (keep schema, ignore large dumps)
+experiments/audit_samples/
+experiments/*.png
+experiments/*.jpg
+experiments/failure_gallery/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/

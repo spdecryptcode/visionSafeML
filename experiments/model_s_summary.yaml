@@ -1,0 +1,9 @@
+name: model_s
+config: /Users/taranjotkaur/AI Projects/ppe-safety-vision/configs/train_model_s.yaml
+best_weights: /Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/model_s/weights/best.pt
+metrics:
+  metrics/precision(B): 0.706508503934282
+  metrics/recall(B): 0.5258461937152276
+  metrics/mAP50(B): 0.5505536316579467
+  metrics/mAP50-95(B): 0.2715177586226989
+  fitness: 0.2715177586226989

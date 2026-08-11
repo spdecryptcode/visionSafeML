@@ -1,0 +1,9 @@
+name: hardhat_ft
+config: /Users/taranjotkaur/AI Projects/ppe-safety-vision/configs/train_hardhat_ft.yaml
+best_weights: /Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/hardhat_ft/weights/best.pt
+metrics:
+  metrics/precision(B): 0.7172492810360849
+  metrics/recall(B): 0.511334952363326
+  metrics/mAP50(B): 0.5366274206765644
+  metrics/mAP50-95(B): 0.25830253063618624
+  fitness: 0.25830253063618624

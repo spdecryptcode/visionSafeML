@@ -1,0 +1,9 @@
+name: lr_low
+config: /Users/taranjotkaur/AI Projects/ppe-safety-vision/configs/train_lr_low.yaml
+best_weights: /Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/lr_low/weights/best.pt
+metrics:
+  metrics/precision(B): 0.6781375182012197
+  metrics/recall(B): 0.557137338005626
+  metrics/mAP50(B): 0.5598617996576186
+  metrics/mAP50-95(B): 0.26999957485840165
+  fitness: 0.26999957485840165

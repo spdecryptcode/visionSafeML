@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-08-11T13:39:10.931646+00:00",
+  "source": "https://huggingface.co/datasets/keremberke/hard-hat-detection/resolve/main/data/train.zip",
+  "license_note": "Hard Hats dataset via Roboflow/HF \u2014 CC BY 4.0 (verify before commercial redistribution)",
+  "max_images": 2500,
+  "remapped_dir": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/data/hard-hat-remapped",
+  "data_yaml": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/configs/data_merged_hardhat.yaml",
+  "images_kept": 2500,
+  "missing_files": 0,
+  "skipped_empty_after_remap": 0,
+  "box_counts": {
+    "0": 1690,
+    "7": 6711
+  },
+  "box_counts_named": {
+    "helmet": 1690,
+    "no_helmet": 6711
+  },
+  "source_categories": {
+    "0": "hardhat",
+    "1": "no-hardhat"
+  },
+  "cat_remap": {
+    "hardhat": 0,
+    "no-hardhat": 7
+  },
+  "note": "Val/test remain Construction-PPE optimized splits only."
+}

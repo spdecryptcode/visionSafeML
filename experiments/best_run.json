@@ -1,0 +1,47 @@
+{
+  "selected_at": "2026-08-11T14:27:10.468147+00:00",
+  "primary_metric": "val mAP50-95",
+  "winner": {
+    "name": "more_epochs",
+    "map50_95": 0.26906,
+    "map50": 0.54576,
+    "best_weights": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/more_epochs/weights/best.pt",
+    "results_csv": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/more_epochs/results.csv",
+    "run_dir": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/more_epochs"
+  },
+  "candidates": [
+    {
+      "name": "more_epochs",
+      "map50_95": 0.26906,
+      "map50": 0.54576,
+      "best_weights": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/more_epochs/weights/best.pt",
+      "results_csv": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/more_epochs/results.csv",
+      "run_dir": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/more_epochs"
+    },
+    {
+      "name": "lr_low",
+      "map50_95": 0.263,
+      "map50": 0.53827,
+      "best_weights": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/lr_low/weights/best.pt",
+      "results_csv": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/lr_low/results.csv",
+      "run_dir": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/lr_low"
+    },
+    {
+      "name": "model_s",
+      "map50_95": 0.26286,
+      "map50": 0.53428,
+      "best_weights": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/model_s/weights/best.pt",
+      "results_csv": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/model_s/results.csv",
+      "run_dir": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/model_s"
+    },
+    {
+      "name": "baseline",
+      "map50_95": 0.25983,
+      "map50": 0.54917,
+      "best_weights": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/baseline/weights/best.pt",
+      "results_csv": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/baseline/results.csv",
+      "run_dir": "/Users/taranjotkaur/AI Projects/ppe-safety-vision/runs/detect/baseline"
+    }
+  ],
+  "note": "Winner chosen on validation metrics only. Test eval is separate."
+}

@@ -1,0 +1,23 @@
+# Run B — longer training / more patience (else same as baseline)
+name: more_epochs
+model: yolo11n.pt
+data: configs/data_optimized.yaml
+epochs: 150
+patience: 40
+imgsz: 640
+batch: 16
+device: mps
+seed: 42
+lr0: 0.01
+optimizer: auto
+project: runs
+exist_ok: true
+plots: true
+save: true
+val: true
+workers: 4
+copy_paste: 0.2
+close_mosaic: 10
+mixup: 0.05
+degrees: 5.0
+scale: 0.6
